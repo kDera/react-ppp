@@ -12,7 +12,7 @@ function App() {
     <div className="App">
         <Hello/>
         <Message/>
-        <Profile name="dera"/>
+        <Profile name="dera" sobrenome='abujder'/>
         <Profile name="caleb"/>
         <Profile name="Fe"/>
     </div>
