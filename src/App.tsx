@@ -7,14 +7,13 @@ import Message from './components/Message';
 
 import Profile from './components/Profile';
 
+import Counter from './components/Counter';
+
 function App() {
   return (
     <div className="App">
-        <Hello/>
-        <Message/>
-        <Profile name="dera" sobrenome='abujder'/>
-        <Profile name="caleb"/>
-        <Profile name="Fe"/>
+        <Counter></Counter>
+        
     </div>
   );
 }
