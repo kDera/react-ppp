@@ -8,7 +8,14 @@ class Counter extends Component{
         };
     }
     render(){
-        return <h3>Counter value is: {this.state.counter} </h3>
+        return(
+        <div>
+            <h3>Counter value is: {this.state.counter} </h3>
+            <button>Click</button>
+        </div>
+        )
+
+        
     }
 }
 
